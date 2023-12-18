@@ -1,5 +1,5 @@
 /**************************/
-/* GLOBAL RESET */
+/* GLOBAL */
 /**************************/
 
 *,
@@ -17,6 +17,8 @@
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+
+  font-family: "Cormorant Garamond", "EB Garamond", "Cormorant Infant", serif;
 }
 
 img,
