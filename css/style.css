@@ -3,7 +3,7 @@
 /**************************/
 
 .header {
-  /* temp */
+  /* temp colour */
   background-color: rgb(246, 238, 231);
   padding: 18px 0 0;
 }
@@ -24,11 +24,11 @@
   padding: 16px 48px;
   text-transform: uppercase;
   color: black;
-  transition: text-shadow 400ms linear;
+  transition: text-shadow 300ms linear;
 }
 
 .header__nav-link:hover {
-  text-shadow: 0 0 18px #2561bb;
+  text-shadow: 0 0 16px #2561bb;
 }
 
 .header__nav-media-links {
@@ -38,19 +38,17 @@
   padding: 16px 0 16px 48px;
 }
 
-.header__nav-media-links a {
-  line-height: 0;
+.header__nav-icon {
+  width: 1.1rem;
+  transition: filter 300ms;
+  will-change: filter;
 }
 
-.header__nav-media-links ion-icon {
-  color: black;
-  transition: filter 400ms linear;
-}
-
-/* FIXED BUG IN SAFARI!! */
-.header__nav-media-links ion-icon:hover {
+.header__nav-media-link:hover .header__nav-icon {
   filter: drop-shadow(0 0 10px #2561bb);
 }
+
+
 
 /**************************/
 /* MAIN */
