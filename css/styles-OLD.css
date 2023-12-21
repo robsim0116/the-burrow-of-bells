@@ -1,15 +1,16 @@
 /**************************/
-/* HEADER */
+/* NAVBAR */
 /**************************/
 
 .header {
   /* temp colour */
-  background-color: rgb(246, 238, 231);
+  background-color: grey;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   padding: 18px 0 0;
 }
-
-/* temp */
-.header__nav {}
 
 .header__nav-list {
   display: flex;
@@ -40,20 +41,10 @@
 
 .header__nav-icon {
   width: 1.1rem;
-  transition: filter 300ms;
+  transition: filter 700ms;
   will-change: filter;
 }
 
 .header__nav-media-link:hover .header__nav-icon {
   filter: drop-shadow(0 0 10px #2561bb);
-}
-
-
-
-/**************************/
-/* MAIN */
-/**************************/
-
-main {
-  padding: 0 14px;
 }
