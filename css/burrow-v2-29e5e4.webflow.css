@@ -220,6 +220,11 @@
   right: 0%;
 }
 
+/* Added for SEO purposes */
+.hero__seo-main-image {
+  visibility: hidden;
+}
+
 .footer-wrapper-flex {
   display: none;
 }
